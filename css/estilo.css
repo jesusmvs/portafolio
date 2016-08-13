@@ -1,0 +1,50 @@
+body {
+	background-color: #e0f2f1;
+}
+
+.container {
+	margin-top: 2%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+nav {
+	background-color: #0288d1;
+}
+
+.card-image {
+	background-color: #009688;
+	border-radius: 10px;
+}
+
+.card {
+	border-radius: 10px;
+}
+
+.panel {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	border-radius: 10px;
+}
+
+.panel-header {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.panel-footer {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+ .limp {
+ 	clear: both;
+ }
+
+ .panel-contenido {
+ 	background-color: #009688;
+ 	color: white;
+ }
+
+ .panel-img {
+ 	background-position: 100%;
+ }
