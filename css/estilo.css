@@ -1,50 +1,86 @@
-body {
-	background-color: #e0f2f1;
+.row{
+	width: 100%;
 }
 
-.container {
-	margin-top: 2%;
-	background-color: white;
-	border-radius: 10px;
+@media only screen and (max-width: 1310px) {
+	header .row .col.m3 {
+	width:23%;
+	padding-left: 0px;
+	padding-right: 0px;
+    }
+
+	header .row .col.m9 {
+	width: 77%;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding: 0px;
+	}
+	.nav-grande {
+	height: 130px;
+	}
+	.down {
+	margin-top: 40px;
+	}
+	#icono-menu  {
+	font-size: 50px;
+	}
 }
+
+@media only screen and (max-width: 992px) {
+	header .row .col.s12 {
+	width:100%;
+	padding-left: 0px;
+	padding-right: 0px;
+    }
+    .nav-grande {
+	height: 130px;
+	}
+	.down {
+	margin-top: 40px;
+	}
+	#icono-menu  {
+	font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 395px) {
+	header .row .col.s12 {
+	width:100%;
+	padding-left: 0px;
+	padding-right: 0px;
+    }
+    .row .center h1 {
+    	font-size: 40px;
+    	margin-top: 15px;
+    } 
+    .nav-grande {
+	height: 80px;
+	}
+	.down {
+	margin-top: 10px;
+	}
+	#icono-menu  {
+	font-size: 40px;
+	}
+}
+
+
 
 nav {
-	background-color: #0288d1;
+	background-color: #11A887;
 }
 
-.card-image {
-	background-color: #009688;
-	border-radius: 10px;
+.no-sombra {
+	box-shadow: none;
 }
 
-.card {
-	border-radius: 10px;
+
+
+.fuente {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
 }
 
-.panel {
-	margin-top: 0%;
-	margin-bottom: 0%;
-	border-radius: 10px;
-}
 
-.panel-header {
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
-}
 
-.panel-footer {
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-}
- .limp {
- 	clear: both;
- }
 
- .panel-contenido {
- 	background-color: #009688;
- 	color: white;
- }
-
- .panel-img {
- 	background-position: 100%;
- }
