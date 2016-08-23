@@ -3,7 +3,7 @@
 <section>
 	<div class="row info">
 
-		<div class="col s12 m3"></div>
+		<div class="col s12 m3 principal"></div>
 		<div class="col s12 m9">
 			<!-- Informacion de la seccion -->
 			<div class="row">
@@ -30,6 +30,10 @@
 					    <div class="card-reveal izq justif">
 					      <span class="card-title grey-text text-darken-4">S.G.D.A<i class="material-icons right">close</i></span>
 					      <p>Demo de Sistema De Gestión de Documentos Académicos realizado para la Unidad Educativa Anaco PDVSA.</p>
+					      
+
+					     
+
 					    </div>
 				  	</div>
 		        </div>

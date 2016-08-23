@@ -7,6 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dosis:600,700' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8">
@@ -16,7 +17,7 @@
   <body>
     <header>    
       <div class="row">
-        <div id="navLateral" class="col s12 m3">
+        <div id="navLateral" class="col s12 m3 principal">
           <ul id="slide-out" class="side-nav fixed">
             <li><div class="userView">
               <img id="wallpaper" class="background" src="img/wallpaper2.png">
@@ -31,7 +32,7 @@
             <li><div class="divider"></div></li>
             <li id="active"><a href="#" class="waves-effect opciones white-text"><i class="material-icons white-text">work</i><span>Portafolio</span><i id="icono-acceder" class="white-text material-icons right">send</i></a></li>
             <li><a href="#" class="waves-effect opciones"><i class="material-icons">done</i><span>Conocimientos</span><i id="icono-acceder" class="material-icons right">send</i></a></li>
-            <li><a class="waves-effect opciones" href="#!"><i class="material-icons">contact_phone</i><span>Contáctame</span><i id="icono-acceder" class="material-icons right">send</i></a></li>
+            <li><a class="modal-trigger waves-effect opciones" href="#modalFooter"><i class="material-icons">contact_phone</i><span>Contáctame</span><i id="icono-acceder" class="material-icons right">send</i></a></li>
             
           </ul>
         </div>

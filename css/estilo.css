@@ -3,7 +3,7 @@
 }
 
 @media only screen and (max-width: 1306px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width:23%;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -32,7 +32,7 @@
 }
 
 @media only screen and (max-width: 1251px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width: 24%;
     }
 	.row>.col.m9 {
@@ -41,7 +41,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width: 25%;
     }
 	.row>.col.m9 {
@@ -50,7 +50,7 @@
 }
 
 @media only screen and (max-width: 1154px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width: 26%;
     }
 	.row>.col.m9 {
@@ -59,7 +59,7 @@
 }
 
 @media only screen and (max-width: 1112px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width: 27%;
     }
 	.row>.col.m9 {
@@ -68,7 +68,7 @@
 }
 
 @media only screen and (max-width: 1072px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width: 28%;
     }
 	.row>.col.m9 {
@@ -77,7 +77,7 @@
 }
 
 @media only screen and (max-width: 1035px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width: 29%;
     }
 	.row>.col.m9 {
@@ -86,12 +86,23 @@
 }
 
 @media only screen and (max-width: 1000px) {
-	.row>.col.m3 {
+	.row>.col.m3.principal {
 	width:30%;
     }
 	.row>.col.m9 {
 	width: 70%;
 	}
+}
+
+@media only screen and (min-width: 993px) {
+
+	#toast-container {
+		right: 7%!important;
+		bottom: 7%!important;
+		top: inherit;
+
+	}
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -101,12 +112,30 @@
 	padding-right: 0px;
 	
     }
+    .row>.col.m3.principal {
+	width:0%;
+    }
 	header .row #navLateral {
-		background-color: #011526;;
+		background-color: #011526;
 	}
 	.info {
 	padding-right: 10px;
 	
+	}
+	#toast-container {
+		right: 5%!important;
+		bottom: 5%!important;
+		left: inherit;
+
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	#toast-container {
+		min-width: 4%!important;
+		right: 10%!important;
 	}
 
 }
@@ -251,5 +280,45 @@ h2 {
 	text-align: justify;
 }
 
+.icon {
+	font-size: 60px;
+	color: #025949;
+	display: block;
+}
 
+.icon:hover {
+	color: #013A40;
+	text-shadow: 2px 1px 1px black;
+	cursor: pointer;
+}
+
+.modal-title{
+	background-color: #011526;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.in-fl {
+	display: inline-flex;
+}
+
+.font-20 {
+	font-size: 20px;
+}
+
+.gris-claro {
+	background-color: #838780!important;
+}
+
+.gris-oscuro {
+	background-color: #000018!important;
+}
+
+.modal .modal-content {
+	padding: 10px 10px 1px 10px!important;
+}
+
+.mail:hover,.telf:hover {
+	cursor: pointer;
+	color: white;
+}
 

@@ -13,17 +13,17 @@
 
 		        </div>
 		        <div class="card-action">
-		          <a class="waves-effect waves-light btn modal-trigger" href="#modalMysql">MySQL</a>
+		          <a class="waves-effect waves-light btn modal-trigger" href="#modalmysqli">mysqli</a>
 		          <a class="right waves-effect waves-light btn modal-trigger" href="#modalPsql">PostgreSQL</a>
 		        </div>
 		      </div>
 		    </div>
-		    <!-- Modal MySQL  -->
-		  	<div id="modalMysql" class="modal">
+		    <!-- Modal mysqli  -->
+		  	<div id="modalmysqli" class="modal">
 
 			    <div class="modal-content">
-			      <h4>MySQL</h4>
-			      <p>MySQl es uno de los manejadores de bases de datos más utilizado, por lo que la mayor parte del tiempo lo he enfocado a trabajar en este gestor. Es la solución idónea para elaborar aplicaciones robustas y de cualquier escala.</p>
+			      <h4>mysqli</h4>
+			      <p>mysqli es uno de los manejadores de bases de datos más utilizado, por lo que la mayor parte del tiempo lo he enfocado a trabajar en este gestor. Es la solución idónea para elaborar aplicaciones robustas y de cualquier escala.</p>
 			    </div>
 			    <div class="modal-footer">
 			      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
